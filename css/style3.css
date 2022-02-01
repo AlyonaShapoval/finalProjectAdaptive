@@ -1,0 +1,47 @@
+@media(max-width:420px){
+    .nav{
+        display: none;
+    }
+    
+    .container{
+        max-width: 100%;
+        margin: auto;
+    }
+      
+      
+    .container-inner{
+        width: 100%;
+      
+    }
+    .container>ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex: 50%;
+        justify-content: center;
+    }
+  
+    .text{
+        width: 100%;
+    }
+    .name{
+        width: 20%;
+        font-size: 25px;
+        text-align: start;
+        margin-bottom: 15px;
+        margin-left: 10px;
+    }
+    .years{
+        width: 200%;
+        font-size: 15px;
+        text-align: center;
+    }
+    .eng{
+        width: 20%;
+        font-size: 15px;
+        text-align: end;
+        writing-mode: vertical-rl;
+    }
+    .burger{
+        display: block;
+    }
+}
